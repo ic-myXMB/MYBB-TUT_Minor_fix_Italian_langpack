@@ -1,0 +1,79 @@
+[For 1.8] - [Tutorial] - Minor Fix for Italian language pack
+
+
+* Tutorial credits: ic_myXMB 
+* The tutorial is free to re-share as long as you retain any mentioned credits
+
+In ref to:
+
+Italian (Italiano)
+by mybbitalia
+
+https://community.mybb.com/mods.php?action=view&pid=662
+
+
+Just a few quick things one quickly noticed as of late while using the existing lang pack (Version 1.8.21 (stable) 2019-06-15, 02:23 PM https://community.mybb.com/mods.php?action=view&pid=662 ) on 1830 while translating some plugins:
+
+
+As these issues should be fixed, let us quickly apply the minor fix for such.
+
+
+front-end side...
+
+global.lang.php needs such added:
+
+[code]
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+$l['confirm_title'] = "Si prega di confermare";
+$l['ratings_update_error'] = 'Si è verificato un errore durante l\'aggiornamento della classificazione.';
+[/code]
+
+
+memberlist.lang.php needs such added:
+
+[code]
+$l['exactly'] = "Esattamente:";
+[/code]
+
+
+usercp.lang.php needs such added:
+
+[code]
+$l['goto_first_unread'] = "Vai al primo post non letto";
+[/code]
+
+
+admin side...
+
+admin/forum_management.lang.php needs such added:
+
+[code]
+$l['forum_thread_prefixes'] = "Prefissi di thread";
+[/code]
+
+
+admin/config_thread_prefixes.lang.php needs such added:
+
+[code]
+$l['forums'] = "Disponibile nei forum";
+[/code]
+
+
+admin/config_badwords.lang.php needs such added:
+
+[code]
+$l['add_bad_word_desc'] = "Qui puoi aggiungere un filtro di parole e la sua sostituzione.";
+[/code]
+
+
+admin/style_themes.lang.php needs such added:
+
+[code]
+$l['theme_thumbnail'] = "Miniatura del tema";
+[/code]
+
+
+etc, etc... & most likely there may be more as one notices / finds such, but, just noting all found here initially at least of all the first few warnings about such in relation to subject matter and current usage on 1830. 
+
+Best of luck.
